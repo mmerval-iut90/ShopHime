@@ -62,8 +62,27 @@ fieldset{
     display: flex;
     flex-direction: column;
     justify-content:space-between;
-    padding-left: 5%;
     padding-right: 5%;
+}
+
+#Filters{
+    padding-left: 100px;
+}
+
+#ClearFilters{
+    background-color: rgb(0,0,0,0);
+    border: none;
+    text-decoration: underline;
+    padding: 0%;
+}
+
+#FiltersHeader{
+    display: flex;
+    flex-direction: row;
+}
+
+#FiltersTitle{
+    margin-right: 20px;
 }
 
 @media(max-width: 600px){
@@ -84,4 +103,15 @@ fieldset{
     #Categories{
         flex-direction: row;
     }
+
+    #Filters{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #FiltersHeader{
+        flex-direction: column;
+        width: 100px;
+    }
+
 }
