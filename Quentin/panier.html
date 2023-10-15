@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style_panier.css">
+    <link rel="stylesheet" href="styles/style_nav.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#"><img src="logo.png" alt="ShopHime"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="boutique.html">Boutique</a></li>
+                <li>
+                    <a href="#">Catégories</a>
+                    <div class="dropdown-content">
+                        <a href="#">Catégorie 1</a>
+                        <a href="#">Catégorie 2</a>
+                        <a href="#">Catégorie 3</a>
+                        
+                    </div>
+                    <li><input class="search" type="text" placeholder="rechercher"></li>
+                </li>
+                <li><a href="#">À Propos</a></li>
+                <li><a class="img-nav" href="#"><img src="styles/images/navbag.svg" alt="Panier"></a></li>
+                <li ><a class="img-nav" href="#"><img src="styles/images/navlog.svg" alt="Se Connecter"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container panier">
+        <h1>Mon Panier</h1>
+        <div> Vous en voulez plus ? <a href="shop.html"> Continuez vos achats</a></div>
+    </div>
+    <div class=" container resume-panier">
+        <h2>Résumé du panier</h2>
+        <form method="post" action="" >
+                <label for="coupon">  </label><br>
+                <input id="coupon" type="text" name="coupon" size="18" value="" placeholder="Saisir votre code promo ici"><br>
+                <button class="btn btn"value="Appliquer"> Appliquer </button>
+          </form>
+    </div>
+    <div class="container infos">
+        <h2>Informations de commande</h2>
+        <hr>
+        <button class="btn">Passer la Commande</button>
+    </div>
+</body>
+</html>
