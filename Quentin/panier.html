@@ -9,43 +9,55 @@
 <body>
     <header>
         <nav class="navbar">
-            <div class="logo">
-                <a href="#"><img src="logo.png" alt="ShopHime"></a>
+            <div class="logo img-nav">
+                <a href="#"><img src="styles/images/shophime.svg" height="70" alt="ShopHime"></a>
             </div>
             <ul class="nav-links">
                 <li><a href="boutique.html">Boutique</a></li>
                 <li>
-                    <a href="#">Catégories</a>
+                    <a class="dropdown" href="#">Catégories</a>
                     <div class="dropdown-content">
                         <a href="#">Catégorie 1</a>
                         <a href="#">Catégorie 2</a>
                         <a href="#">Catégorie 3</a>
-                        
+                        <a href="#">Catégorie 4</a>
                     </div>
-                    <li><input class="search" type="text" placeholder="rechercher"></li>
                 </li>
-                <li><a href="#">À Propos</a></li>
-                <li><a class="img-nav" href="#"><img src="styles/images/navbag.svg" alt="Panier"></a></li>
-                <li ><a class="img-nav" href="#"><img src="styles/images/navlog.svg" alt="Se Connecter"></a></li>
+            
+                <a href="#">À Propos</a></li>
+                <li><img class="img-nav" src="styles/images/magnifying-glass.svg" height="15" alt=""><input class="search" type="text" placeholder="rechercher"></li>
             </ul>
+            
+                <a class="img-nav" href="#"><img src="styles/images/navbag.svg" height="" alt="Panier"></a>
+                <div>4</div>
+                <a class="img-nav" href="#"><img src="styles/images/navlog.svg" height="30" alt="Se Connecter"></a>
+            
         </nav>
     </header>
-    <div class="container panier">
-        <h1>Mon Panier</h1>
-        <div> Vous en voulez plus ? <a href="shop.html"> Continuez vos achats</a></div>
+    <div class="container">
+        <div class= panier">
+            <h1>Mon Panier</h1>
+            <div> Vous en voulez plus ? <a href="shop.html"> Continuez vos achats</a></div>
+        </div>
+        <div class="resume-panier">
+            <h2>Résumé du panier</h2>
+            <form method="post" action="" >
+                    <label for="coupon">  </label><br>
+                    <input id="coupon" type="text" name="coupon" size="18" value="" placeholder="Saisir votre code promo ici"><br>
+                    <button class="btn btn"value="Appliquer"> Appliquer </button>
+                    <p>Sous-Total</p>
+                    <p>Frais de ivraison</p>
+                    <hr>
+                    <p>Total</p>
+            </form>
+            <button class="btn">Passer la Commande</button>
+        </div>
     </div>
-    <div class=" container resume-panier">
-        <h2>Résumé du panier</h2>
-        <form method="post" action="" >
-                <label for="coupon">  </label><br>
-                <input id="coupon" type="text" name="coupon" size="18" value="" placeholder="Saisir votre code promo ici"><br>
-                <button class="btn btn"value="Appliquer"> Appliquer </button>
-          </form>
-    </div>
-    <div class="container infos">
+    <div class="infos">
         <h2>Informations de commande</h2>
         <hr>
-        <button class="btn">Passer la Commande</button>
+        <div>Politique de retours</div>
+        <div>Options de livraisons</div>
     </div>
 </body>
 </html>
