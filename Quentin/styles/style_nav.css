@@ -58,3 +58,8 @@
     color: #fff;
     
 }
+
+.contain-img{
+    display: flex;
+    margin-right: 5%;
+}
