@@ -1,5 +1,5 @@
 body{
-    width:100%;
+    width:100vw;
     margin: 0%;
     padding: 0%;
 }
@@ -16,7 +16,7 @@ header{
     background-color: rgb(13, 13, 13);
     width: 100%;
     margin-top: 61px;
-    padding-left: 100px;
+    padding-left: 5vw;
     padding-top: 10px;
     padding-bottom: 15px;
 }
@@ -45,17 +45,19 @@ label{
     color: grey;
 }
 
-#SortType{
+#SelectSortType{
     border: none;
     background: rgba(0,0,0,0);
     font-weight: bold;
     font-size: large;
+    font-size:medium;
 }
 
-
-fieldset{
-    border: solid black 1px;
-    width: 160px;
+#SortBy{
+    border: solid 1px black;
+    width:fit-content;
+    font-size:medium;
+    padding: 5px;
 }
 
 #Categories{
@@ -63,10 +65,7 @@ fieldset{
     flex-direction: column;
     justify-content:space-between;
     padding-right: 5%;
-}
-
-#Filters{
-    padding-left: 100px;
+    flex-wrap: wrap;
 }
 
 #ClearFilters{
@@ -74,6 +73,9 @@ fieldset{
     border: none;
     text-decoration: underline;
     padding: 0%;
+    font-size: medium;
+    color: gray;
+
 }
 
 #FiltersHeader{
@@ -81,10 +83,90 @@ fieldset{
     flex-direction: row;
 }
 
-#FiltersTitle{
-    margin-right: 20px;
+main{
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
+#ProductGrid{
+    width: 75vw;
+    height: 75vw;
+    display: block;
+    float: left;
+    
+}
+#ProductGrid, #filtersList, #Filters{
+    margin-top: 3vh;
+}
+
+
+
+#FiltersTitle{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Public Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.55px; 
+}
+
+#filtersList{
+    height: 75vw;
+    width: 15vw;
+    float: left;
+}
+
+.product{
+    display: flex;
+    width: 24vw;
+    height: auto;
+    margin-left: 1vw;
+    float: left;
+    margin-bottom: 1vw;
+    flex-direction: column;
+}
+
+#nProduct{
+    font-family: Public Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.4px; 
+}
+
+.product p{
+    margin-right: 0px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+.product img{
+    width: 100%;
+}
+
+#Filters{
+    border: rgba(0,0,0,0) solid 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#filters-right{
+    display: flex;
+    flex-direction: column;
+}
+
+#filters-left{
+    display: flex;
+    flex-direction: row;
+}
+
+.separation{
+    width:75vw;
+}
 @media(max-width: 600px){
     header{
         background-color: rgb(255, 255, 255);
@@ -102,6 +184,7 @@ fieldset{
     }
     #Categories{
         flex-direction: row;
+        justify-content: left;
     }
 
     #Filters{
@@ -114,4 +197,25 @@ fieldset{
         width: 100px;
     }
 
+    #filtersList{
+        width: 90vw;
+        height: auto;
+    }
+
+    #ProductGrid{
+        width: 90vw;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .product{
+        width: 90vw;
+        margin-bottom: 1vh;
+    }
+
+    #filters-left{
+        flex-direction: column;
+    }
 }
+
+
