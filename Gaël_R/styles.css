@@ -36,7 +36,7 @@ body {
 /*Images déroulantes toutes seules*/
 
 .image-slider {
-    width: 43%;
+    width: 810px;
     height: 100%;
     margin-top: 5%;
     margin-left: 28%;
@@ -95,5 +95,9 @@ body {
 
 .bold{
     color: #333333;
+}
+
+img:hover{
+    cursor: pointer;
 }
 

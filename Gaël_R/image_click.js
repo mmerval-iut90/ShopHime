@@ -1,3 +1,7 @@
-function One_piece() {
-    window.location.href = "./Quentin/panier.html";
+function One_piece(){
+    window.location.href = 'https://www.google.com';
+}
+
+function Black_clover(){
+    window.location.href = "../Gaël_R/Index.html";
 }
