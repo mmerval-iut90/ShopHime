@@ -14,6 +14,8 @@ nav{
 
 header{
     background-color: rgb(13, 13, 13);
+    background-image: url('images/hxh_banner.png');
+    background-size: 100vw;
     width: 100%;
     margin-top: 61px;
     padding-left: 5vw;
@@ -230,5 +232,4 @@ main{
         padding-left: 0%;
     }
 }
-
 

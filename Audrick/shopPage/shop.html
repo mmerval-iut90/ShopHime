@@ -21,10 +21,10 @@
             <div id="filters-right">
                 <div id="SortBy">
                     <label id="labelSortFilters"for="SelectSortType">Sort by</label>
-                    <select id="SelectSortType">
+                    <select id="SelectSortType" onchange="changeSort()">
                         <option>Popular</option>
-                        <option>Price</option>
-                        <option>Date</option>
+                        <option value="ascendingPrice">Ascending price</option>
+                        <option value="descendingPrice">Descending price</option>
                     </select>
                 </div>
                 <p id="nProduct">Showing 1003 products</p> 
@@ -66,10 +66,26 @@
         </div>
         <div id="ProductGrid">
             <div class="product">
-                <img src="">
-                <p class="productName">Name</p>
-                <p class="productPrice">Price</p>
+                <img src="products/sweat-capuche-hunter.jpg">
+                <p class="productName">sweat capuche hunter</p>
+                <p class="productPrice">39</p>
+            </div>
+            <div class="product">
+                <img src="products/tshirt-hisoka-dos.jpg">
+                <p class="productName">tshirt hisoka</p>
+                <p class="productPrice">27</p>
+            </div>
+            <div class="product">
+                <img src="products/tshirt-kirua-colere.jpg">
+                <p class="productName">tshirt kirua colere</p>
+                <p class="productPrice">25</p>
+            </div>
+            <div class="product">
+                <img src="products/tshirt-silhouette-kaito.jpg">
+                <p class="productName">tshirt silhouette kaito</p>
+                <p class="productPrice">31</p>
             </div>
         </div>
     </main>
+    <script src="sort.js"></script>
 </body>
