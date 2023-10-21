@@ -28,7 +28,7 @@ body {
 .secondary-txt{
     color: gray;
     font-size: 20px;
-    margin-top: 5%;
+    margin-top: 10%;
     width: 60%;
     margin-left: 20%;
 }
@@ -38,7 +38,7 @@ body {
 .image-slider {
     width: 43%;
     height: 100%;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: 28.5%;
     margin-right: 28.5%;
     overflow: hidden;
@@ -81,7 +81,7 @@ body {
 }
 
 .button:hover {
-    background-color: #555555;
+    background-color: #000000;
     color: white;
 }
 
@@ -93,7 +93,7 @@ body {
     margin-bottom: 3.5%;
 }
 
-.bold{
+.secondary-txt b{
     color: #333333;
 }
 
