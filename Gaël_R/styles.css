@@ -48,6 +48,11 @@ body {
     display: flex;
     transition: transform 0.5s ease; /* pour une transition fluide */
 }
+
+.image-container img {
+    width: 100%;
+    object-fit: cover; /* Les images remplissent complètement la div sans déformer */
+}
   
 
 
@@ -88,4 +93,7 @@ body {
     margin-bottom: 3.5%;
 }
 
+.bold{
+    color: #333333;
+}
 
