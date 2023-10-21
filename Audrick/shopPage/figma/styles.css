@@ -1,0 +1,234 @@
+body{
+    width:100vw;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    top: 0%;
+    position: absolute;
+    background-color:rgb(13,13,13) ;
+    height: 60px;
+    width: 100%;
+}
+
+header{
+    background-color: rgb(13, 13, 13);
+    width: 100%;
+    margin-top: 61px;
+    padding-left: 5vw;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+header hr{
+    width: 100%;
+    background-color: white;
+}
+
+header p{
+        width: 500px;
+        color: rgb(255, 255, 255);   
+        height: auto;
+    }
+
+header h1{
+    color:white;
+}
+
+#presentation{
+    padding-left: 80px;
+    background-color: rgb(0, 0, 0);
+}
+
+label{
+    color: grey;
+}
+
+#SelectSortType{
+    border: none;
+    background: rgba(0,0,0,0);
+    font-weight: bold;
+    font-size: large;
+    font-size:medium;
+}
+
+#SortBy{
+    border: solid 1px black;
+    width:fit-content;
+    font-size:medium;
+    padding: 5px;
+}
+
+#Categories{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding-right: 5%;
+    flex-wrap: wrap;
+}
+
+#ClearFilters{
+    background-color: rgb(0,0,0,0);
+    border: none;
+    text-decoration: underline;
+    padding: 0%;
+    font-size: medium;
+    color: gray;
+    margin-top: 0px;
+    display: contents
+}
+
+#FiltersHeader{
+    display: flex;
+    flex-direction: row;
+}
+
+main{
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+#ProductGrid{
+    width: 75vw;
+    height: 75vw;
+    display: block;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    
+}
+#ProductGrid, #filtersList, #Filters{
+    margin-top: 3vh;
+}
+
+#FiltersTitle{
+    font-family: 'Public Sans';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.55px; 
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+#filtersList{
+    height: 75vw;
+    width: 15vw;
+    float: left;
+}
+
+.product{
+    display: flex;
+    width: 24vw;
+    height: auto;
+    flex-direction: column;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    transition: padding 0.4s;
+}
+
+.product:hover{
+    padding-top: 0px;
+}
+
+#nProduct{
+    font-family: 'Public Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.4px; 
+}
+
+.product p{
+    margin-right: 0px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+.product img{
+    width: 100%;
+}
+
+#Filters{
+    border: rgba(0,0,0,0) solid 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#filters-right{
+    display: flex;
+    flex-direction: column;
+}
+
+#filters-left{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+}
+
+.separation{
+    width:75vw;
+}
+@media(max-width: 390px){
+    header{
+        background-color: rgb(255, 255, 255);
+        padding-left: 0%;
+    }
+    header p{
+        width: auto;
+        color: gray;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    header h1{
+        text-align: center;
+        color: black;
+    }
+    #Categories{
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    #Filters{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #FiltersHeader{
+        flex-direction: column;
+        width: 100px;
+    }
+
+    #filtersList{
+        width: 90vw;
+        height: auto;
+    }
+
+    #ProductGrid{
+        width: 90vw;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .product{
+        width: 90vw;
+        margin-bottom: 1vh;
+    }
+
+    #filters-left{
+        flex-direction: column;
+    }
+    #ClearFilters{
+        padding-left: 0%;
+    }
+}
+
+

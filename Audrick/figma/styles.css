@@ -94,16 +94,18 @@ main{
     height: 75vw;
     display: block;
     float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
     
 }
 #ProductGrid, #filtersList, #Filters{
     margin-top: 3vh;
 }
 
-
-
 #FiltersTitle{
-    font-family: Public Sans;
+    font-family: 'Public Sans';
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
@@ -124,14 +126,18 @@ main{
     display: flex;
     width: 24vw;
     height: auto;
-    margin-left: 1vw;
-    float: left;
-    margin-bottom: 1vw;
     flex-direction: column;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    transition: padding 0.4s;
+}
+
+.product:hover{
+    padding-top: 0px;
 }
 
 #nProduct{
-    font-family: Public Sans;
+    font-family: 'Public Sans';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
