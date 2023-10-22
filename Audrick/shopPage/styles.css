@@ -98,7 +98,6 @@ main{
     float: left;
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
     flex-wrap: wrap;
     
 }
@@ -154,8 +153,16 @@ main{
     margin-bottom: 0px;
 }
 
-.product img{
-    width: 100%;
+.productImage{
+    width:24vw;
+    height: 24vw;
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.productImage:hover{
+    background-size: auto 100%;
 }
 
 #Filters{
