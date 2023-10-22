@@ -247,6 +247,11 @@ button:hover, .product:hover, input:hover{
         margin-bottom: 1vh;
     }
 
+    .productImage{
+        width: 90vw;
+        height: 90vw;
+    }
+
     #filters-left{
         flex-direction: column;
     }
