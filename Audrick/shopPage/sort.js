@@ -43,6 +43,14 @@ function descendingPriceSort(){
     }
 }
 
+function popularSort(){
+    var products = document.getElementsByClassName('product');
+    for(var i = 0; i < products.length; i++){
+        var product = products[i]
+        product.style.order = 0; 
+    }
+}
+
 function changeSort() {
     var selectElement = document.getElementById("SelectSortType");
     var selectedValue = selectElement.value;
@@ -50,5 +58,7 @@ function changeSort() {
         ascendingPriceSort();
     } else if (selectedValue === "descendingPrice") {
         descendingPriceSort();
+    } else if (selectedValue === "popular") {
+        popularSort();
     }
 }

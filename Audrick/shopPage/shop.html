@@ -22,7 +22,7 @@
                 <div id="SortBy">
                     <label id="labelSortFilters"for="SelectSortType">Sort by</label>
                     <select id="SelectSortType" onchange="changeSort()">
-                        <option>Popular</option>
+                        <option value="popular">Popular</option>
                         <option value="ascendingPrice">Ascending price</option>
                         <option value="descendingPrice">Descending price</option>
                     </select>
@@ -35,31 +35,31 @@
         <div id="filtersList">
             <div id = 'Categories'>           
                 <div>
-                    <input type="checkbox" id="ClotheBox">
-                    <label for="ClotheBox">Clothes</label>
+                    <input class='categorie' name="Clothes" onchange="categorieFilters()" type="checkbox" id="ClotheBox">
+                    <label for="ClotheBox">Clothes</label> 
                 </div>
                 <div>
-                    <input type="checkbox" id="PosterBox">
+                    <input class='categorie' name="Posters" onchange="categorieFilters()" type="checkbox" id="PosterBox">
                     <label for="Posterbox">Posters</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="BagBox">
+                    <input class='categorie' name="Bags" onchange="categorieFilters()" type="checkbox" id="BagBox">
                     <label for="BagBox">Bags</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="MangaBox">
+                    <input class='categorie' name="Manga" onchange="categorieFilters()" type="checkbox" id="MangaBox">
                     <label for="MangaBox">Manga</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="DVDBox">
+                    <input class='categorie' name="DVD" onchange="categorieFilters()" type="checkbox" id="DVDBox">
                     <label for="DVDBox">DVD</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="FigurineBox">
-                    <label for="FigurineBox">Figurine</label>
+                    <input class='categorie' name="Figurines" onchange="categorieFilters()" type="checkbox" id="FigurineBox">
+                    <label for="FigurineBox">Figurines</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="ToyBox">
+                    <input class='categorie' name="Toys" onchange="categorieFilters()" type="checkbox" id="ToyBox">
                     <label for="ToyBox">Toys</label>
                 </div>
             </div>
@@ -69,23 +69,28 @@
                 <img src="products/sweat-capuche-hunter.jpg">
                 <p class="productName">sweat capuche hunter</p>
                 <p class="productPrice">39</p>
+                <p class="productCategorie" hidden>Clothes</p>
             </div>
             <div class="product">
                 <img src="products/tshirt-hisoka-dos.jpg">
                 <p class="productName">tshirt hisoka</p>
                 <p class="productPrice">27</p>
+                <p class="productCategorie" hidden>Clothes</p>
             </div>
             <div class="product">
                 <img src="products/tshirt-kirua-colere.jpg">
                 <p class="productName">tshirt kirua colere</p>
                 <p class="productPrice">25</p>
+                <p class="productCategorie" hidden>Clothes</p>
             </div>
             <div class="product">
                 <img src="products/tshirt-silhouette-kaito.jpg">
                 <p class="productName">tshirt silhouette kaito</p>
                 <p class="productPrice">31</p>
+                <p class="productCategorie" hidden>Clothes</p>
             </div>
         </div>
     </main>
     <script src="sort.js"></script>
+    <script src="filters.js"></script>
 </body>
