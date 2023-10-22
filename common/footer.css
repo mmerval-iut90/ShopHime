@@ -1,0 +1,156 @@
+body {
+    font-family: 'Public Sans';
+    margin: 0;
+}
+
+.footer {
+    padding: 20px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.gauche{
+    width: 30%;
+}
+
+.droite{
+    margin-top: 2%;
+    width: 60%;
+}
+
+.happy{
+    display: inline-flex;
+}
+
+.newsletter {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.newsletter h2 {
+    margin-bottom: 10px;
+    font-size: 36px;
+    width: 100%;
+}
+
+.newsletter p {
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+
+.info{
+    margin-left: auto;
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0, 0);
+    padding: 10px;
+}
+
+.info .main-footer{
+    width: 100%;
+    border: 1px solid rgb(0, 0, 255, 0);
+    display: inline-flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.info .sub-footer{
+    width: 100%;
+    border: 1px solid rgb(255, 192, 203, 0);
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.info .sub-footer li{
+    list-style-type: none;
+}
+
+.info .sub-footer .sub a{
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+}
+
+.border-mail{
+    border: 1px solid black; 
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%;
+}
+
+.border-mail button{
+    font-family: 'Public Sans';
+}
+
+.newsletter input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    color: black;
+    cursor: pointer;
+    width: 100px;
+}
+
+.newsletter button:hover {
+    background-color: rgb(179, 179, 179);
+}
+
+.social-icons{
+    width: 30%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin:0 10px;
+    background-size: cover;
+}
+
+.social-icons .instagram {
+    background-image: url('chemin/vers/icone-instagram.png');
+}
+
+.social-icons .facebook {
+    background-image: url('chemin/vers/icone-facebook.png');
+}
+
+.social-icons .youtube {
+    background-image: url('chemin/vers/icone-youtube.png');
+}
+
+.social-icons .twitter {
+    background-image: url('chemin/vers/icone-twitter.png');
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+@media (max-width:768px){
+    .happy{
+        display: block;
+    }
+
+    .droite{
+        width: 100%;
+    }
+
+    .gauche{
+        width: 100%;
+    }
+
+    .social-icons{
+        width: 100%;
+    }
+}

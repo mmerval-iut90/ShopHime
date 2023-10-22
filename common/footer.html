@@ -3,9 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>footer</title>
+    <link href='https://fonts.googleapis.com/css?family=Public Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="footer.css">
+    <title>Footer</title>
 </head>
 <body>
-    
+    <footer class="footer">
+        <div class="happy">
+            <div class="gauche">
+                <div class="newsletter">
+                    <h2>Sign up for our newsletter</h2>
+                    <p>Be the first to know about our special offers, new product launches, and events</p>
+                    <div class="border-mail">
+                        <input type="email" id="email" placeholder="Email Address" pattern="[a-zA-Z0-9._%+-]+@gmail\.com">
+                        <button onclick="submitEmail()"><b>Sign Up</b></button>
+                    </div>
+                    <div id="error-message" class="error-message" style="display:none;">Please enter a valid email address.</div>
+                </div>
+            </div>
+            <div class="droite">
+                <div class="info">
+                    <div class="main-footer">
+                        <div>Shop</div>
+                        <div>Help</div>
+                        <div>About</div>
+                    </div>
+                    <div class="sub-footer">
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">One Pièce</a></li>
+                                <li><a href="#">Black Clover</a></li>
+                                <li><a href="#">Berserk</a></li>
+                                <li><a href="#">Hunter X Hunter</a></li>
+                            </ul>
+                        </div>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Order Status</a></li>
+                                <li><a href="#">Size Chart</a></li>
+                                <li><a href="#">Returns & Warranty</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Responsibility Technology</a></li>
+                                <li><a href="#">Explore</a></li>
+                                <li><a href="#">our stories</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="#" class="icon instagram"><img src="../Gaël_R/image/svg/icons8-instagram.svg" alt="instagram"></a>
+            <a href="#" class="icon facebook"><img src="../Gaël_R/image/svg/icons8-facebook.svg" alt="facebook"></a>
+            <a href="#" class="icon youtube"><img src="../Gaël_R/image/svg/icons8-youtube.svg" alt="youtube"></a>
+            <a href="#" class="icon twitter"><img src="../Gaël_R/image/svg/icons8-twitter.svg" alt="twitter"></a>
+        </div>
+    </footer>
+    <script src="../Gaël_R/js/emailValid.js"></script>
 </body>
 </html>
