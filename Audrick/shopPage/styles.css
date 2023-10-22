@@ -99,6 +99,7 @@ main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: start;
     
 }
 #ProductGrid, #filtersList, #Filters{
@@ -126,6 +127,7 @@ main{
 .product{
     display: flex;
     width: 24vw;
+    margin-right: 1vw;
     height: auto;
     flex-direction: column;
     padding-bottom: 1vw;
@@ -135,6 +137,10 @@ main{
 
 .product:hover{
     padding-top: 0px;
+    cursor: pointer;
+}
+
+button:hover, .product:hover, input:hover{
     cursor: pointer;
 }
 
