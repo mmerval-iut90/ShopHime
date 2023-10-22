@@ -144,14 +144,7 @@ button:hover, .product:hover, input:hover{
     cursor: pointer;
 }
 
-#nProduct{
-    font-family: 'Public Sans';
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: -0.4px; 
-}
+
 
 .product p{
     margin-right: 0px;
@@ -193,6 +186,21 @@ button:hover, .product:hover, input:hover{
 .separation{
     width:75vw;
 }
+
+.categorie{
+    border: black;
+    color: black;
+}
+
+.categorie:checked{
+    background-color: green;
+}
+
+#showingNproduct{
+    display: flex;
+    flex-direction: row;
+}
+
 @media(max-width: 768px){
     header{
         background-color: rgb(255, 255, 255);

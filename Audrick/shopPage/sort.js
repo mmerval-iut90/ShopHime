@@ -62,3 +62,5 @@ function changeSort() {
         popularSort();
     }
 }
+
+changeSort()

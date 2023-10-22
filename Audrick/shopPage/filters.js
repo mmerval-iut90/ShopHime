@@ -31,5 +31,24 @@ function categorieFilters(){
             }
         }
     }
+    var nvisible = 0
+    for(var i = 0; i < products.length; i++){
+        var product = products[i]
+        if(product.style.display == 'block'){
+            nvisible++
+        }
+    }
+    document.getElementById("nProduct").textContent = nvisible;
+
+}
+
+categorieFilters()
+
+function clearFilters(){
+    for(var j = 0; j < categories.length; j++){
+        var categorie = categories[j]
+        categorie.checked = false;
+    }
+    categorieFilters();
 }
 
