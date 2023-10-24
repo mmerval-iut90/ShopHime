@@ -93,15 +93,14 @@ main{
 
 #ProductGrid{
     width: 75vw;
-    height: 75vw;
+    height: auto;
     display: block;
     float: left;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: start;
-    
+    flex-wrap: wrap;   
 }
+
 #ProductGrid, #filtersList, #Filters{
     margin-top: 3vh;
 }
@@ -128,15 +127,15 @@ main{
     display: flex;
     width: 24vw;
     margin-right: 1vw;
-    height: auto;
+    height: 30vw;
     flex-direction: column;
-    padding-bottom: 1vw;
-    padding-top: 1vw;
-    transition: padding 0.4s;
+    transition: transform 0.4s;
+    box-shadow: 5px 5px 5px;
+    margin-bottom: 1vw;
 }
 
 .product:hover{
-    padding-top: 0px;
+    transform: scale(1.03);
     cursor: pointer;
 }
 
@@ -188,12 +187,11 @@ button:hover, .product:hover, input:hover{
 }
 
 .categorie{
-    border: black;
-    color: black;
+    border: solid 2px black;
 }
 
-.categorie:checked{
-    background-color: green;
+#ClotheBox{
+    border: solid 10px black;
 }
 
 #showingNproduct{
@@ -244,6 +242,7 @@ button:hover, .product:hover, input:hover{
 
     .product{
         width: 90vw;
+        height: 100vw;
         margin-bottom: 1vh;
     }
 
