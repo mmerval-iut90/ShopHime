@@ -56,8 +56,8 @@ body {
 }
 
 .info .main-footer div{
-    margin-left: 100px;
-    margin-right: 150px;
+    margin-left: 10%;
+    margin-right: 16%;
 }
 
 
@@ -161,10 +161,5 @@ body {
 
     .social-icons{
         width: 100%;
-    }
-
-    .info .main-footer div{
-        margin-left: 40px;
-        margin-right: 95px;
     }
 }
