@@ -1,6 +1,8 @@
 body {
     font-family: 'Public Sans';
     margin: 0;
+    background-color: #16161d;
+    color: white;    
 }
 
 .footer {
@@ -102,8 +104,9 @@ body {
 
 .social-icons{
     width: 30%;
+    filter: invert(0.9);
     display: inline-flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .social-icons a {

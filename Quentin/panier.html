@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <link rel="icon" type="image/png" href="ico/android-chrome-512x512.png">
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>ShopHime - Panier</title>
     <link rel="stylesheet" href="styles/style_panier.css">
     <link rel="stylesheet" href="styles/style_nav.css">
+    <link rel="stylesheet" href="">
 </head>
 <body>
     <header>
@@ -55,44 +57,29 @@
     </div>
     <div class="infos">
         <h2>Informations de commande</h2>
-        <hr>
+        <hr class="groshr">
         <div class="text-container">
-        <p class="visible-text">Politique de retour</p>
-        <div class="hidden-text"> <p>Cher(e) client(e),
-            Chez ShopHime, nous croyons que la vie est trop courte pour se prendre au sérieux, même lorsqu'il s'agit de retours de produits. Voici donc notre politique de retour, aussi légère que la plume d'un pingouin en parachute:</p>
-            <ol>
+            <p id="toggle-text" class="visible-text">Politique de retour +</p>
+        <div class="hidden-text">Cher(e) client(e),
+            Chez ShopHime, nous croyons que la vie est trop courte pour se prendre au sérieux, même lorsqu'il s'agit de retours de produits. Voici donc notre politique de retour, aussi légère que la plume d'un pingouin en parachute:
+            <ol class="hidden-text">
                 <li>La règle du "Hakuna Matata" : Si vous changez d'avis, pas de souci ! Vous avez 30 jours pour retourner un article, du moment qu'il est dans le même état que quand vous l'avez reçu. Vous n'avez pas besoin de nous raconter toute votre vie, ni de donner une excuse farfelue. On vous fait confiance.</li>
                 <li>Le test de danse du poulet : Pour être éligible au retour, votre produit ne doit pas montrer de signes évidents de maltraitance. Si vous avez dansé avec lui façon "poulet à la discothèque", désolé, mais il ne sera pas éligible. Nous avons nos standards de danse à maintenir !</li>
                 <li>Garantie "Lutin Magique" : Si le produit que vous avez acheté se met soudainement à se comporter de manière étrange, comme s'il était possédé par un lutin farceur, contactez-nous immédiatement. Nous enverrons un exorciste ou une fée marraine pour régler le problème.</li>
                 <li>La garantie du sourire : Si, après avoir reçu un produit de notre part, vous ne parvenez pas à esquisser un sourire dans les 48 heures, contactez notre équipe du service client. Nous vous enverrons une vidéo de chatons mignons pour égayer votre journée.</li>
-                <li>L'ultime garantie "Joyeux Léprechaun" : Si vous trouvez un trèfle à quatre feuilles dans votre colis de retour, considérez-le comme une bénédiction et gardez-le. Vous êtes censé avoir de la chance pour les 7 prochaines années. 🍀</li>
             </ol> 
-            <p>Merci d'avoir choisi [Nom de votre entreprise] pour vos besoins en produits rigolos. Notre équipe est là pour rendre votre expérience aussi joyeuse que possible. Alors, si vous avez des questions, des commentaires ou simplement une blague à partager, n'hésitez pas à nous contacter.
+            Merci d'avoir choisi ShopHime pour vos besoins en produits rigolos. Notre équipe est là pour rendre votre expérience aussi joyeuse que possible. Alors, si vous avez des questions, des commentaires ou simplement une blague à partager, n'hésitez pas à nous contacter.
 
                 Rappelez-vous, le rire est le meilleur remède, même en matière de retours de produits. Restez joyeux !
                 
                 Cordialement,
                 L'équipe de ShopHime</p>
-            </div>
-        <button id="toggle-button">+</button>
+        </div>
     </div>
+    <hr>
         <div>Options de livraisons</div>
     </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const toggleButton = document.getElementById('toggle-button');
-            const hiddenText = document.querySelector('.hidden-text');
-    
-            toggleButton.addEventListener('click', function () {
-                if (hiddenText.style.display === 'none') {
-                    hiddenText.style.display = 'block';
-                    toggleButton.textContent = 'Voir moins';
-                } else {
-                    hiddenText.style.display = 'none';
-                    toggleButton.textContent = 'Voir plus';
-                }
-            });
-        });
-    </script>
+ 
+    <script src="script.js"></script>
 </body>
 </html>
