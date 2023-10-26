@@ -23,10 +23,10 @@ document.addEventListener('DOMContentLoaded', function () {
     toggleText.addEventListener('click', function () {
         if (isHidden) {
             hiddenText.style.display = 'block';
-            toggleText.textContent = 'Politique de retour -';
+            toggleText.textContent = 'Options de livraison -';
         } else {
             hiddenText.style.display = 'none';
-            toggleText.textContent = 'Politique de retour +';
+            toggleText.textContent = 'Options de livraison +';
         }
         isHidden = !isHidden;
     });

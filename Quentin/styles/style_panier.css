@@ -53,7 +53,7 @@
 
 
     .articleimg {
-        width: 60%;
+        width: 90%;
         height: fit-content;
     }
 
@@ -122,6 +122,10 @@
     .texte-livraison {
         display: none;
     }
+    .informations-commande{
+        margin-top: 10%;
+        width: 50%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -129,6 +133,7 @@
     body {
         margin: 0;
         font-family: "Public Sans";
+        
     }
 
     header {
@@ -164,7 +169,7 @@
     .articlepanier {
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 80%;
     }
 
     .article {
@@ -185,7 +190,7 @@
     .resume-panier {
         display: flex;
         flex-direction: column;
-        width: 25%;
+        width: 100%;
     }
 
     .resume-panier input {
@@ -241,11 +246,11 @@
     .texte-livraison {
         display: none;
     }    .panier, .resume-panier, .informations-commande {
-        width: 100%; /* Occuper toute la largeur de l'écran */
+        width: 90%; /* Occuper toute la largeur de l'écran */
     }
 
     .panier, .resume-panier, .informations-commande {
-        margin: 0%; /* Marge réduite pour un meilleur ajustement sur les petits écrans */
+        margin: 5 2%; /* Marge réduite pour un meilleur ajustement sur les petits écrans */
     }
 
     .souspanier {
@@ -254,20 +259,22 @@
     }
 
     .desc-article, .checkoutpart, .texte-retour, .texte-livraison {
-        width: 100%; /* Occuper toute la largeur de l'écran */
+        width: 90%; /* Occuper toute la largeur de l'écran */
     }
 
-    .resume-panier {
+    
+    .panier .articlepanier {
+        order: 1; /* Laisser le sous-panier en premier */   
+    }
+
+    .panier .resume-panier {
         order: 2; /* Déplacer le résumé de commande en dernier */
     }
 
-    .informations-commande {
+    .panier  .informations-commande {
         order: 3; /* Déplacer les informations de commande après le sous-panier */
     }
 
-    .articlepanier {
-        order: 1; /* Laisser le sous-panier en premier */
-    }
 }
 
 
