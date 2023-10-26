@@ -17,7 +17,6 @@ header{
     background-color: rgb(13, 13, 13);
     width: 100%;
     margin-top: 61px;
-    padding-left: 5vw;
     padding-top: 10px;
     padding-bottom: 15px;
 }
@@ -25,16 +24,20 @@ header{
 header hr{
     width: 100%;
     background-color: white;
+    
 }
 
 header p{
         width: 500px;
         color: rgb(255, 255, 255);   
         height: auto;
+        margin-left: 5vw;
     }
 
 header h1{
     color:white;
+    width: 60%;
+    margin-left: 5vw;
 }
 
 #presentation{
