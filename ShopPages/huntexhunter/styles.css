@@ -1,3 +1,26 @@
-background{
-    
+header{
+    background-image: url('Images/background.jpeg');
+    background-size: 100%;
 }
+
+#Charactere{
+    bottom: 0%;
+    right: 0%;
+    position: fixed;
+    width:11vw;
+    height: auto;
+}
+
+body {
+    font-family: 'Public Sans';
+    margin: 0; 
+}
+
+
+@media(max-width:768px){
+    #Charactere{
+        width:auto;
+        height: 20vh;
+    }
+}
+

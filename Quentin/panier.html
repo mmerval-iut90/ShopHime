@@ -3,83 +3,111 @@
 <head>
     <link rel="icon" type="image/png" href="ico/android-chrome-512x512.png">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ShopHime - Panier</title>
     <link rel="stylesheet" href="styles/style_panier.css">
-    <link rel="stylesheet" href="styles/style_nav.css">
-    <link rel="stylesheet" href="">
+    <link href='https://fonts.googleapis.com/css?family=Public Sans' rel='stylesheet'>
+    <script src="script.js"> </script>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo img-nav">
-                <a href="#"><img src="styles/images/shophime.svg" height="70" alt="ShopHime"></a>
+    <div class="container-col">
+        <div class="panier">
+            <div class="paniertitre">
+                <h1>Votre panier</h1>
+                <p>Vous en voulez plus ? <a href="shop.html"> Continuez vos achats !</a></p><br>
             </div>
-            <ul class="nav-links">
-                <li><a href="boutique.html">Boutique</a></li>
-                <li>
-                    <a class="dropdown" href="#">Catégories</a>
-                    <div class="dropdown-content">
-                        <a href="#">Catégorie 1</a>
-                        <a href="#">Catégorie 2</a>
-                        <a href="#">Catégorie 3</a>
-                        <a href="#">Catégorie 4</a>
+            <div class="souspanier">
+                <div class="articlepanier">
+                    <div class="article">
+                        <div class="articleimg">
+                            <a href="/images/Panier/tshirtnoirhomme.jpg">
+                                <img  class="articleimg" src="styles/images/produits_panier/catakuri.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="desc-article">
+                            <h3><a href="#">T-SHIRT CAT-AKURI</a></h3><br>
+                            <p>Taille : L<br>Quantité : 1</p>
+                            <h3>69€</h3>
+                        </div>
+                        <div class="deletebuttonpart">
+                            <div style="height: 85%;"></div>
+                            <div>
+                                <a href="#" class="deletebutton">Supprimer</a>
+                            </div>
+                        </div>
                     </div>
-                </li>
-            
-                <a href="#">À Propos</a></li>
-                <li><img class="img-nav" src="styles/images/magnifying-glass.svg" height="15" alt=""><input class="search" type="text" placeholder="rechercher"></li>
-            </ul>
-            <div class="contain-img">
-                <a class="img-nav" href="panier.html"><img src="styles/images/navbag.svg" height="" alt="Panier"></a>
-                <div>4</div>
-                <a class="img-nav" href="login.html"><img src="styles/images/navlog.svg" height="30" alt="Se Connecter"></a>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <div class= panier">
-            <h1>Mon Panier</h1>
-            <div> Vous en voulez plus ? <a href="shop.html"> Continuez vos achats</a></div>
-        </div>
-        <div class="resume-panier">
-            <h2>Résumé du panier</h2>
-            <form method="post" action="" >
-                    <label for="coupon">  </label><br>
-                    <input id="coupon" type="text" name="coupon" size="18" value="" placeholder="Saisir votre code promo ici"><br>
-                    <button class="appliquer"value="Appliquer"> Appliquer </button>
-                    <p>Sous-Total</p>
-                    <p>Frais de ivraison</p>
-                    <hr>
-                    <p>Total</p>
-            </form>
-            <button class="btn">Passer la Commande</button>
-        </div>
-    </div>
-    <div class="infos">
-        <h2>Informations de commande</h2>
-        <hr class="groshr">
-        <div class="text-container">
-            <p id="toggle-text" class="visible-text">Politique de retour +</p>
-        <div class="hidden-text">Cher(e) client(e),
-            Chez ShopHime, nous croyons que la vie est trop courte pour se prendre au sérieux, même lorsqu'il s'agit de retours de produits. Voici donc notre politique de retour, aussi légère que la plume d'un pingouin en parachute:
-            <ol class="hidden-text">
-                <li>La règle du "Hakuna Matata" : Si vous changez d'avis, pas de souci ! Vous avez 30 jours pour retourner un article, du moment qu'il est dans le même état que quand vous l'avez reçu. Vous n'avez pas besoin de nous raconter toute votre vie, ni de donner une excuse farfelue. On vous fait confiance.</li>
-                <li>Le test de danse du poulet : Pour être éligible au retour, votre produit ne doit pas montrer de signes évidents de maltraitance. Si vous avez dansé avec lui façon "poulet à la discothèque", désolé, mais il ne sera pas éligible. Nous avons nos standards de danse à maintenir !</li>
-                <li>Garantie "Lutin Magique" : Si le produit que vous avez acheté se met soudainement à se comporter de manière étrange, comme s'il était possédé par un lutin farceur, contactez-nous immédiatement. Nous enverrons un exorciste ou une fée marraine pour régler le problème.</li>
-                <li>La garantie du sourire : Si, après avoir reçu un produit de notre part, vous ne parvenez pas à esquisser un sourire dans les 48 heures, contactez notre équipe du service client. Nous vous enverrons une vidéo de chatons mignons pour égayer votre journée.</li>
-            </ol> 
-            Merci d'avoir choisi ShopHime pour vos besoins en produits rigolos. Notre équipe est là pour rendre votre expérience aussi joyeuse que possible. Alors, si vous avez des questions, des commentaires ou simplement une blague à partager, n'hésitez pas à nous contacter.
+                    <div>
+                        <hr>
+                    </div>
+                    <div class="article">
+                        <div class="articleimg">
+                            <a href="/images/Panier/tshirtnoirhomme.jpg"><img class="articleimg"
+                                 src="/Quentin/styles/images/produits_panier/Dogflamingo.png"
+                                    alt="image"></a>
+                        </div>
+                        <div class="desc-article">
+                            <h3><a href="#">T-SHIRT DOG-FLAMINGO</a></h3>
+                            <p>Taille : M<br> Quantité : 1</p>
+                            <h3>69€</h3>
+                        </div>
+                        <div class="deletebuttonpart">
+                            <div style="height: 85%;"></div>
+                            <div>
+                                <a href="#" class="deletebutton">Supprimer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                Rappelez-vous, le rire est le meilleur remède, même en matière de retours de produits. Restez joyeux !
-                
-                Cordialement,
-                L'équipe de ShopHime</p>
+                <div class="resume-panier">
+                    <h2>Résumé de commande</h2>
+                    <div><br></div>
+                    <form>
+                        <input id="reductioncode" name="reductioncode" class="reductioncode"
+                            placeholder="Entrez votre code de réduction ici"></input>
+                    </form>
+                    <div><br></div>
+                    <div class="checkouttext">
+                        <p class="checkouttext1">Sous total : </p>
+                        <p class="checkouttext2">138€</p>
+                    </div>
+                    <div class="checkouttext">
+                        <p class="checkouttext1">Livraison : </p>
+                        <p class="checkouttext2"><em>C'est cadeau !!!</em></p>
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                    <div class="checkouttext">
+                        <p class="checkouttext1">Total : </p>
+                        <p class="checkouttext2">Beaucoup trop.</p>
+                    </div>
+                    <div><br></div>
+                    <a href="https://paypal.me/Kenjiiro95" class="checkoutbutton">Prochaine étape de paiement</a>
+                </div>
+            </div>
+            
+            <div class="informations-commande">
+                <h3>Informations de commande</h3>
+                <hr>
+                <h5 id="retour">Politique de retour +</h5>
+                <div class="texte-retour">Chez ShopHime, nous croyons que la vie est trop courte pour se prendre au sérieux, même lorsqu'il s'agit de retours de produits. Voici donc notre politique de retour, aussi légère que la plume d'un pingouin en parachute:
+                    <ol>
+                        <li>La règle du "Hakuna Matata" : Si vous changez d'avis, pas de souci ! Vous avez 30 jours pour retourner un article, du moment qu'il est dans le même état que quand vous l'avez reçu. Vous n'avez pas besoin de nous raconter toute votre vie, ni de donner une excuse farfelue. On vous fait confiance.</li>
+                        <li>Le test de danse du poulet : Pour être éligible au retour, votre produit ne doit pas montrer de signes évidents de maltraitance. Si vous avez dansé avec lui façon "poulet à la discothèque", désolé, mais il ne sera pas éligible. Nous avons nos standards de danse à maintenir !</li>
+                        <li>Garantie "Lutin Magique" : Si le produit que vous avez acheté se met soudainement à se comporter de manière étrange, comme s'il était possédé par un lutin farceur, contactez-nous immédiatement. Nous enverrons un exorciste ou une fée marraine pour régler le problème.</li>
+                        <li>La garantie du sourire : Si, après avoir reçu un produit de notre part, vous ne parvenez pas à esquisser un sourire dans les 48 heures, contactez notre équipe du service client. Nous vous enverrons une vidéo de chatons mignons pour égayer votre journée.</li>
+                    </ol> 
+                    Merci d'avoir choisi ShopHime pour vos besoins en produits rigolos. Notre équipe est là pour rendre votre expérience aussi joyeuse que possible. Alors, si vous avez des questions, des commentaires ou simplement une blague à partager, n'hésitez pas à nous contacter.
+                </div>
+                <hr>
+                <h5 id="livraison">Options de livraison +</h5>
+                <div class="texte-livraison"> <p>Votre colis sera livré un jour peut être (on fait du drop shipping)</p></div>
+                <hr>
+            </div>
+
         </div>
-    </div>
-    <hr>
-        <div>Options de livraisons</div>
-    </div>
- 
-    <script src="script.js"></script>
+        
+    
 </body>
 </html>

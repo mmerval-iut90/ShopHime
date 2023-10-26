@@ -7,42 +7,55 @@
     <link href="styles.css" rel="stylesheet">
     <link rel="icon" href="" />
 </head>
-<body></body>
-    <nav></nav>
-    <header>
-        <h1>Hunter x Hunter</h1>
-        <p>Chasseurs en herbe, Nen utilisateurs et fans inconditionnels, préparez-vous à être enchantés par notre collection exclusive de produits Hunter x Hunter ! Que vous soyez un passionné du légendaire Gon Freecss, du mystérieux Killua Zoldyck, du redoutable Hisoka, ou de tout autre personnage incroyable de cette série épique, nous avons tout ce qu'il vous faut pour satisfaire votre quête de produits épiques.</p>
-    </header>
-    <main>
-        <div id="Filters">
-            <div id="filters-left">
-                <h4 id="FiltersTitle">Filters</h4>            
-                <button id="ClearFilters" onclick="clearFilters()">Clear filters</button>
-            </div>
-            <div id="filters-right">
-                <div id="SortBy">
-                    <label id="labelSortFilters"for="SelectSortType">Sort by</label>
-                    <select id="SelectSortType" onchange="changeSort()">
-                        <option value="popular">Popular</option>
-                        <option value="ascendingPrice">Ascending price</option>
-                        <option value="descendingPrice">Descending price</option>
-                    </select>
+    <body>
+        <nav></nav>
+        <header>
+            <h1>Hunter x Hunter</h1>
+            <p>Chasseurs en herbe, utilisateurs de nen et fans inconditionnels, préparez-vous à être enchantés par notre collection exclusive de produits Hunter x Hunter ! Que vous soyez un passionné du légendaire Gon Freecss, du mystérieux Killua Zoldyck, du redoutable Hisoka, ou de tout autre personnage incroyable de cette série épique, nous avons tout ce qu'il vous faut pour satisfaire votre quête de produits épiques.</p>
+        </header>
+        <main>
+            <div id="Filters">
+                <div id="filters-left">
+                    <h4 id="FiltersTitle">Filters</h4>            
+                    <button id="ClearFilters" onclick="clearFilters()">Clear filters</button>
                 </div>
-                <div id="showingNproduct"> <p>Showing&nbsp;</p> <p id="nProduct">1003</p><p>&nbsp;products</p></div> 
+                <div id="filters-right">
+                    <div id="SortBy">
+                        <label id="labelSortFilters"for="SelectSortType">Sort by</label>
+                        <select id="SelectSortType" onchange="changeSort()">
+                            <option value="popular">Popular</option>
+                            <option value="ascendingPrice">Ascending price</option>
+                            <option value="descendingPrice">Descending price</option>
+                        </select>
+                    </div>
+                    <div id="showingNproduct"> <p>Showing&nbsp;</p> <p id="nProduct">1003</p><p>&nbsp;products</p></div> 
+                </div>
             </div>
-        </div>
-        <h3 class="separation">Categories</h3>  
-        <div id="filtersList">
-            <div id = 'Categories'>
+            <h3 class="separation">Categories</h3>  
+            <div id="filtersList">
+                <div id = 'Categories'>
 
+                </div>
             </div>
-        </div>
-        <div id="ProductGrid">
+            <div id="ProductGrid">
+                
+            </div>
             
-        </div>
-    </main>
-    <script src="productsList.js"></script>
-    <script src="../products.js"></script>
-    <script src="../sort.js"></script>
-    <script src="../filters.js"></script>
-</body>
+        <img src="Images/gon_charactere.png" id="Charactere">
+        </main>
+        
+        <iframe src="../../common/footer2.html" frameborder="0" scrolling="no" onload="resizeIframe(this)" id="iframe" style="width: 100vw; left:0px;"></iframe>
+
+        <script>
+            function resizeIframe(obj) {
+                obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+                console.log()
+            }
+
+        </script>
+        <script src="productsList.js"></script>
+        <script src="../products.js"></script>
+        <script src="../sort.js"></script>
+        <script src="../filters.js"></script>
+    </body>
+</html>
