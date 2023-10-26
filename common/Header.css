@@ -96,7 +96,7 @@ body{
     position: relative;
 }
 
-button{
+.dropdown button{
     background-color: black;
     color: white;
     border:none;
@@ -107,7 +107,7 @@ button{
     cursor:pointer;
 }
 
-button:hover{
+.dropdown button:hover{
     background-color:#ddd;
     color: black;
 }
