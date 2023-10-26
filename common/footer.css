@@ -1,27 +1,29 @@
 body {
     font-family: 'Public Sans';
-    margin: 0;
-    background-color: #16161d;
-    color: white;    
+    margin: 0; 
 }
 
 .footer {
-    padding: 20px;
-    margin-left: 8%;
-    margin-right: 8%;
+    width: 100%;
+    margin: 0;
+    background-color: #16161d;
+    color: white;
 }
 
 .gauche{
-    width: 30%;
+    width: 40%;
+    margin-left: 10%;
+    margin-right: 5%;
 }
 
 .droite{
     margin-top: 2%;
-    width: 60%;
+    margin-right: 10%;
 }
 
 .happy{
     display: inline-flex;
+    width: 100%;
 }
 
 .newsletter {
@@ -42,14 +44,14 @@ body {
 }
 
 .info{
-    margin-left: 10% ;
     width: 100%;
     border: 1px solid rgb(0, 0, 0, 0);
     padding: 10px;
+    margin-left: 20%;
 }
 
 .info .main-footer{
-    width: 100%;
+    width: 80%;
     border: 1px solid rgb(0, 0, 255, 0);
     display: inline-flex;
     margin-bottom: 10px;
@@ -57,13 +59,13 @@ body {
 
 .info .main-footer div{
     margin-left: 10%;
-    margin-right: 16%;
+    margin-right: 10%;
+    border: 1px solid rgba(255, 255, 255, 0);
 }
 
 
-
 .info .sub-footer{
-    width: 100%;
+    width: 80%;
     border: 1px solid rgb(255, 192, 203, 0);
     display: inline-flex;
     justify-content: space-around;
@@ -109,7 +111,7 @@ body {
 }
 
 .social-icons{
-    width: 30%;
+    width: 100%;
     filter: invert(0.9);
     display: inline-flex;
     justify-content: space-evenly;
@@ -147,23 +149,38 @@ body {
 
 
 @media (max-width:768px){
+
+    body{
+        width: 100%;
+    }
+
+    .newsletter h2{
+        margin-top: 0;
+    }
+
     .happy{
         display: block;
     }
 
     .droite{
-        width: 100%;
+        width: 80%;
+        margin: auto;
     }
 
     .gauche{
-        width: 100%;
+        width: 80%;
+        margin: auto;
     }
 
     .info{
-        margin: auto;
+        width: 100%;
+        border: 1px solid rgb(0, 0, 0, 0);
+        padding: 10px;
+        margin-left: 10%;
     }
 
     .social-icons{
         width: 100%;
+        margin:auto;
     }
 }
