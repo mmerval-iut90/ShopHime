@@ -31,7 +31,7 @@
         font-size: 130%;
     }
     .panier {
-        background-color: rgb(255,255,255,0.6);
+        background-color: rgb(255,255,255,0.8);
         border: solid #222;
 
         margin: 5%;
@@ -223,6 +223,7 @@
     .resume-panier input {
         width: 100%;
         height: 40px;
+        font-size: 120%;
         text-align: center;
     }
 
