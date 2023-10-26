@@ -4,3 +4,6 @@ function resizeIframe(obj) {
     console.log()
 
 }
+window.addEventListener('resize', function() {
+    resizeIframe(document.getElementsByTagName('iframe'))
+});
