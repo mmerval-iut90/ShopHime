@@ -9,25 +9,6 @@
       <link rel="stylesheet" href="./styles/nav_bar.css">
   </head>
   <body>
-    <nav class="center">
-      <section class="top-nav">
-        <div>
-          <a href="../Gaël_R/Index.html">
-            <img class="logo invert" src="./image/shophime.svg" alt="shophime_logo">
-          </a>
-        </div>
-          <input id="menu-toggle" type="checkbox" />
-          <label class='menu-button-container' for="menu-toggle">
-            <div class='menu-button'></div>
-          </label>
-          <ul class="menu">
-            <li>One</li>
-            <li>Two</li>
-            <li>Three</li>
-            <li>Four</li>
-            <li>Five</li>
-          </ul>
-      </nav>
       <div class="center-txt1 title">
         <h1>
           Best anime goodies on Earth
@@ -36,23 +17,36 @@
           Find the best anime goodies on this website. Our website will focus on 4 Anime which are : <b>Berserk, One Piece, Black Clover</b> and <b>Hunter X Hunter</b>
         </p>
       </div>
-      <div class="carousel">
-        <div class="carousel-slide">
-            <img src="./image/One-Piece.jpg" alt="Image 1" onclick="window.location.href ='';">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="./image/One-Piece.jpg" style="width:100%">
+          <div class="text">1 / 4</div>
         </div>
-        <div class="carousel-slide">
-            <img src="./image/Black-Clover.png" alt="Image 2" onclick="window.location.href ='';">
+  
+        <div class="mySlides fade">
+          <img src="./image/Black-Clover.png" style="width:100%">
+          <div class="text">2 / 4</div>
         </div>
-        <div class="carousel-slide">
-            <img src="./image/Berserk.jpg" alt="Image 3" onclick="window.location.href ='';">
+  
+        <div class="mySlides fade">
+          <img src="./image/Berserk.jpg" style="width:100%">
+          <div class="text">3 / 4</div>
         </div>
-        <div class="carousel-slide">
-            <img src="./image/gris.jpg" alt="Image 4" onclick="window.location.href ='';">
+  
+        <div class="mySlides fade">
+          <img src="./image/gris.jpg" style="width:100%">
+          <div class="text">4 / 4</div>
         </div>
-    </div>
-      <a href="../Gaël_R/Index.html">
-        <img class="logo1" src="./image/shophime.svg" alt="shophime_logo">
-      </a>  
+      </div>
+      <br>
+  
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+      <hr>  
       <script src="./js/scroll_image.js"></script>
       <script src="./js/image_click.js"></script>
       <script src="./js/dropdown.js"></script>      

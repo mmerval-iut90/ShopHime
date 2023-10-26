@@ -35,26 +35,65 @@ body {
 
 /*Images déroulantes toutes seules*/
 
-.carousel-container {
-    width: 600px;
-    overflow: hidden;
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 40%;
     position: relative;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.carousel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 5px;
+    position: absolute;
+    bottom: 8px;
+    border-radius: 5px;
+    width: 20%; /* Définissez la largeur que vous préférez */
+    text-align: center;
+    background-color: gray;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.carousel-slide {
-    min-width: 100%;
-    box-sizing: border-box;
-    cursor: pointer;
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
-.carousel-slide img {
-    width: 100%;
-    display: block;
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
 }
   
 
