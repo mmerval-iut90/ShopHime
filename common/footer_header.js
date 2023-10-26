@@ -4,4 +4,5 @@ function resizeIframe(obj) {
 }
 window.addEventListener('resize', function() {
     resizeIframe(document.getElementById('iframe'))
+    resizeIframe(document.getElementById('iframe2'))
 });
