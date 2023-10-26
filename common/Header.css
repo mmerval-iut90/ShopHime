@@ -165,7 +165,7 @@ body{
     top: 5px;
     position: absolute;
     cursor: pointer;
-    opacity: 0.5;
+    opacity: 0;
 }
 
 .hamburger{
