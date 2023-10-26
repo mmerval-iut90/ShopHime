@@ -2,6 +2,11 @@
     body {
         margin: 0;
         font-family: "Public Sans";
+        background-image: url('images/image-removebg-preview_1.png');
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 100% 1500px; 
+        background-image: ;
     }
 
     header {
@@ -16,13 +21,19 @@
         font-size: 4vh;
         letter-spacing: 1vh;
     }
-
     a {
         color: black;
-        font-size: 16px;
+        font-size: 120%;
     }
-
+   
+    .paniertexte{
+        margin:5%;
+        font-size: 130%;
+    }
     .panier {
+        background-color: rgb(255,255,255,0.6);
+        border: solid #222;
+
         margin: 5%;
         display: flex;
         gap: 5%;
@@ -38,6 +49,7 @@
     }
 
     .articlepanier {
+        padding: 5%;
         display: flex;
         flex-direction: column;
         width: 50%;
@@ -123,7 +135,8 @@
         display: none;
     }
     .informations-commande{
-        margin-top: 10%;
+
+        margin:5%;
         width: 50%;
     }
 }
@@ -133,6 +146,10 @@
     body {
         margin: 0;
         font-family: "Public Sans";
+        background-image: url('images/image-removebg-preview_1.png');
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 100% 800px; 
         
     }
 
@@ -158,9 +175,13 @@
         gap: 5%;
         flex-direction: column;
         max-width: 100%;
+        background-color: rgb(255,255,255,0.8);
+        border: solid #222;
+        
     }
 
     .souspanier {
+        margin-left: 5%;
         display: flex;
         flex-direction: row;
         max-width: 100%;
@@ -243,10 +264,13 @@
         display: none;
     }
 
+    .informations-commande{
+        margin-left: 5%;
+    }
     .texte-livraison {
         display: none;
     }    .panier, .resume-panier, .informations-commande {
-        width: 90%; /* Occuper toute la largeur de l'écran */
+        width: 90%;
     }
 
     .panier, .resume-panier, .informations-commande {
