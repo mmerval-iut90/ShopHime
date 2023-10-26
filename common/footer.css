@@ -1,27 +1,31 @@
 body {
     font-family: 'Public Sans';
-    margin: 0;
-    background-color: #16161d;
-    color: white;    
+    margin: 0; 
 }
 
 .footer {
-    padding: 20px;
-    margin-left: 8%;
-    margin-right: 8%;
+    width: 100%;
+    margin: 0;
+    background-color: #16161d;
+    color: white;
 }
 
 .gauche{
-    width: 30%;
+    width: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid black;
 }
 
 .droite{
     margin-top: 2%;
-    width: 60%;
+    border: 1px solid black;
 }
 
 .happy{
     display: inline-flex;
+    width: 100%;
+    border: 1px solid black;
 }
 
 .newsletter {
@@ -49,22 +53,22 @@ body {
 }
 
 .info .main-footer{
-    width: 100%;
-    border: 1px solid rgb(0, 0, 255, 0);
+    width: 80%;
+    border: 1px solid rgb(0, 0, 255, 1);
     display: inline-flex;
     margin-bottom: 10px;
 }
 
 .info .main-footer div{
     margin-left: 10%;
-    margin-right: 16%;
+    margin-right: 10%;
+    border: 1px solid white;
 }
 
 
-
 .info .sub-footer{
-    width: 100%;
-    border: 1px solid rgb(255, 192, 203, 0);
+    width: 80%;
+    border: 1px solid rgb(255, 192, 203, 1);
     display: inline-flex;
     justify-content: space-around;
 }
@@ -110,9 +114,9 @@ body {
 
 .social-icons{
     width: 30%;
+    margin-left: 10%;
     filter: invert(0.9);
     display: inline-flex;
-    justify-content: space-evenly;
 }
 
 .social-icons a {
@@ -152,11 +156,13 @@ body {
     }
 
     .droite{
-        width: 100%;
+        width: 80%;
+        margin: auto;
     }
 
     .gauche{
-        width: 100%;
+        width: 80%;
+        margin: auto;
     }
 
     .info{
@@ -165,5 +171,6 @@ body {
 
     .social-icons{
         width: 100%;
+        margin: auto;
     }
 }
