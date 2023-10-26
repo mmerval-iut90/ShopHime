@@ -13,19 +13,17 @@ body {
 .gauche{
     width: 40%;
     margin-left: 10%;
-    margin-right: 10%;
-    border: 1px solid black;
+    margin-right: 5%;
 }
 
 .droite{
     margin-top: 2%;
-    border: 1px solid black;
+    margin-right: 10%;
 }
 
 .happy{
     display: inline-flex;
     width: 100%;
-    border: 1px solid black;
 }
 
 .newsletter {
@@ -46,15 +44,15 @@ body {
 }
 
 .info{
-    margin-left: 10% ;
     width: 100%;
     border: 1px solid rgb(0, 0, 0, 0);
     padding: 10px;
+    margin-left: 20%;
 }
 
 .info .main-footer{
     width: 80%;
-    border: 1px solid rgb(0, 0, 255, 1);
+    border: 1px solid rgb(0, 0, 255, 0);
     display: inline-flex;
     margin-bottom: 10px;
 }
@@ -62,13 +60,13 @@ body {
 .info .main-footer div{
     margin-left: 10%;
     margin-right: 10%;
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0);
 }
 
 
 .info .sub-footer{
     width: 80%;
-    border: 1px solid rgb(255, 192, 203, 1);
+    border: 1px solid rgb(255, 192, 203, 0);
     display: inline-flex;
     justify-content: space-around;
 }
@@ -113,10 +111,10 @@ body {
 }
 
 .social-icons{
-    width: 30%;
-    margin-left: 10%;
+    width: 100%;
     filter: invert(0.9);
     display: inline-flex;
+    justify-content: space-evenly;
 }
 
 .social-icons a {
@@ -151,6 +149,15 @@ body {
 
 
 @media (max-width:768px){
+
+    body{
+        width: 100%;
+    }
+
+    .newsletter h2{
+        margin-top: 0;
+    }
+
     .happy{
         display: block;
     }
@@ -166,11 +173,14 @@ body {
     }
 
     .info{
-        margin: auto;
+        width: 100%;
+        border: 1px solid rgb(0, 0, 0, 0);
+        padding: 10px;
+        margin-left: 10%;
     }
 
     .social-icons{
         width: 100%;
-        margin: auto;
+        margin:auto;
     }
 }
