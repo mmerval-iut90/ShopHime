@@ -8,7 +8,7 @@ products = [
     ['Images/Set-5-Blue-ray.jpg','Blue-ray set 5', '20.99',  'DVD'],
     ['Images/Set-6-Blue-ray.JPEG','Blue-ray set 6', '20.99',  'DVD'],
     ['Images/Set-7-Blue-ray.jpg','Blue-ray set 7', '20.99',  'DVD'],
-    ['Images/sweat-capuche-hunter.jpg','Sweat capuche', '30.99','Clothes'],
+    ['Images/sweat-capuche-hunter.jpg','Sweat à capuche', '30.99','Clothes'],
     ['Images/tome1.jpg','Tome n°1', '5.50', 'Manga'],
     ['Images/tome24.jpg', 'Tome n°24', '6.90', 'Manga'],
     ['Images/tome34.jpg', 'Tome n°34', '7.10', 'Manga'],
