@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop</title>
+    <link href="../shop.css" rel="stylesheet">
+    <link rel="icon" href="" />
+</head>
+<body></body>
+    <nav></nav>
+    <header>
+        <h1>Hunter x Hunter</h1>
+        <p>Chasseurs en herbe, Nen utilisateurs et fans inconditionnels, préparez-vous à être enchantés par notre collection exclusive de produits Hunter x Hunter ! Que vous soyez un passionné du légendaire Gon Freecss, du mystérieux Killua Zoldyck, du redoutable Hisoka, ou de tout autre personnage incroyable de cette série épique, nous avons tout ce qu'il vous faut pour satisfaire votre quête de produits épiques.</p>
+    </header>
+    <main>
+        <div id="Filters">
+            <div id="filters-left">
+                <h4 id="FiltersTitle">Filters</h4>            
+                <button id="ClearFilters" onclick="clearFilters()">Clear filters</button>
+            </div>
+            <div id="filters-right">
+                <div id="SortBy">
+                    <label id="labelSortFilters"for="SelectSortType">Sort by</label>
+                    <select id="SelectSortType" onchange="changeSort()">
+                        <option value="popular">Popular</option>
+                        <option value="ascendingPrice">Ascending price</option>
+                        <option value="descendingPrice">Descending price</option>
+                    </select>
+                </div>
+                <div id="showingNproduct"> <p>Showing&nbsp;</p> <p id="nProduct">1003</p><p>&nbsp;products</p></div> 
+            </div>
+        </div>
+        <h3 class="separation">Categories</h3>  
+        <div id="filtersList">
+            <div id = 'Categories'>
+
+            </div>
+        </div>
+        <div id="ProductGrid">
+            
+        </div>
+    </main>
+    <script src="productsList.js"></script>
+    <script src="../products.js"></script>
+    <script src="../sort.js"></script>
+    <script src="../filters.js"></script>
+</body>

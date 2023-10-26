@@ -14,8 +14,6 @@ nav{
 
 header{
     background-color: rgb(13, 13, 13);
-    background-image: url('images/hxh_banner.png');
-    background-size: 100vw;
     width: 100%;
     margin-top: 61px;
     padding-left: 5vw;
@@ -127,11 +125,12 @@ main{
     display: flex;
     width: 24vw;
     margin-right: 1vw;
-    height: 30vw;
+    padding: 1%;
     flex-direction: column;
     transition: transform 0.4s;
     box-shadow: 5px 5px 5px;
     margin-bottom: 1vw;
+    max-width: 300px;
 }
 
 .product:hover{
@@ -143,8 +142,6 @@ button:hover, .product:hover, input:hover{
     cursor: pointer;
 }
 
-
-
 .product p{
     margin-right: 0px;
     margin-top: 3px;
@@ -154,9 +151,12 @@ button:hover, .product:hover, input:hover{
 .productImage{
     width:24vw;
     height: 24vw;
+    max-width: 300px;
+    max-height: 300px;
     background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
+    border: black solid 1px;
 }
 
 .productImage:hover{
@@ -198,6 +198,12 @@ button:hover, .product:hover, input:hover{
     display: flex;
     flex-direction: row;
 }
+
+.price{
+    display: flex;
+    flex-direction: row;
+}
+
 
 @media(max-width: 768px){
     header{
@@ -241,14 +247,19 @@ button:hover, .product:hover, input:hover{
     }
 
     .product{
-        width: 90vw;
-        height: 100vw;
+        max-width:none;
+        max-height: none;
+        width: 60vw;
         margin-bottom: 1vh;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .productImage{
-        width: 90vw;
-        height: 90vw;
+        width: 60vw;
+        height: 60vw;
+        max-width:none;
+        max-height: none;
     }
 
     #filters-left{
