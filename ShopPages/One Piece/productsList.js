@@ -1,7 +1,7 @@
 products = [
     ['Images/catakuri.jpg','One Piece - T-Shirt Cat-akuri', '69,0', 'Clothes'],
-    ['Images/dogflamingo.png', 'One Piece - T-Shirt Dog-flamingo', '69,0', 'Clothes'],
-    ['Images/bears.jpg', 'One Piece - T-Shirt Bears', '69,0', 'Clothes'],
+    ['Images/Dogflamingo.png', 'One Piece - T-Shirt Dog-flamingo', '69,0', 'Clothes'],
+    ['Images/Bears.jpg', 'One Piece - T-Shirt Bears', '69,0', 'Clothes'],
     ['Images/luffyWanted.webp', 'One Piece - Affiche Wanted Luffy', '9,99', 'Poster'],
     ['Images/ChopperWanted.webp', 'One Piece - Affiche Wanted Chopper', '9,99', 'Poster'],
     ['Images/usoppwanted.webp', 'One Piece - Affiche Wanted Usopp', '9,99', 'Poster'],
