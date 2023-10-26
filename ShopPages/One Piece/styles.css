@@ -1,8 +1,8 @@
 body    {
     background-image: url('Images/bg.png');
-    background-size: 100% 20%; 
+    background-size: 100% 30%; 
     background-repeat: no-repeat;
-    background-position: center bottom; 
+    background-position: center 89%; 
 }
 
 .product{
