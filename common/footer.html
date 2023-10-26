@@ -54,7 +54,9 @@
                         </div>
                         <div class="sub">
                             <ul>
-                                <li><a href="#">About Us</a></li>
+                                <li><a href="#" id="playButton" onclick="toggleAudio()">Lire l'audio</a>
+                                    <audio id="myAudio" src="../common/Carte_Blanq_Maxx_Power_-_33_Max_Verstappen_Official_Audio_mp3cut.net.mp3"></audio>
+                                </li>
                                 <li><a href="#">Responsibility Technology</a></li>
                                 <li><a href="#">Explore</a></li>
                                 <li><a href="#">our stories</a></li>
@@ -65,6 +67,18 @@
             </div>
         </div>
     </footer>
+    <script>
+    function toggleAudio() {
+        var audio = document.getElementById("myAudio");
+      
+        if (audio.paused) {
+          audio.play();
+          document.getElementById("playButton").innerHTML = "Pause";
+        } else {
+          audio.pause();
+          document.getElementById("playButton").innerHTML = "Lire l'audio";
+        }
+      }</script>
     <script src="../common/emailValid.js"></script>
 </body>
 </html>
