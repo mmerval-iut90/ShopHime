@@ -35,23 +35,26 @@ body {
 
 /*Images déroulantes toutes seules*/
 
-.image-slider {
-    width: 43%;
-    height: 100%;
-    margin-top: 10%;
-    margin-left: 28.5%;
-    margin-right: 28.5%;
+.carousel-container {
+    width: 600px;
     overflow: hidden;
+    position: relative;
 }
 
-.image-container {
+.carousel {
     display: flex;
-    transition: transform 0.5s ease; /* pour une transition fluide */
+    transition: transform 0.5s ease-in-out;
 }
 
-.image-container img {
+.carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.carousel-slide img {
     width: 100%;
-    object-fit: cover; /* Les images remplissent complètement la div sans déformer */
+    display: block;
 }
   
 

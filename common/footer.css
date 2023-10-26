@@ -42,7 +42,7 @@ body {
 }
 
 .info{
-    margin-left: auto;
+    margin-left: 10% ;
     width: 100%;
     border: 1px solid rgb(0, 0, 0, 0);
     padding: 10px;
@@ -52,9 +52,15 @@ body {
     width: 100%;
     border: 1px solid rgb(0, 0, 255, 0);
     display: inline-flex;
-    justify-content: space-around;
     margin-bottom: 10px;
 }
+
+.info .main-footer div{
+    margin-left: 10%;
+    margin-right: 16%;
+}
+
+
 
 .info .sub-footer{
     width: 100%;
@@ -106,7 +112,7 @@ body {
     width: 30%;
     filter: invert(0.9);
     display: inline-flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .social-icons a {
@@ -151,6 +157,10 @@ body {
 
     .gauche{
         width: 100%;
+    }
+
+    .info{
+        margin: auto;
     }
 
     .social-icons{
