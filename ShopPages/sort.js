@@ -15,7 +15,7 @@ function ascendingPriceSort(){
             }
         }
         
-        var product = tab_prices[minElement].parentNode;
+        var product = tab_prices[minElement].parentNode.parentNode;
         tab_prices.splice(minElement,1);
         product.style.order = i;
     }
@@ -37,7 +37,7 @@ function descendingPriceSort(){
                 maxPrice = price;
             }
         }
-        var product = tab_prices[maxElement].parentNode;
+        var product = tab_prices[maxElement].parentNode.parentNode;
         tab_prices.splice(maxElement,1);
         product.style.order = i;
     }

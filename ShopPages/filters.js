@@ -1,5 +1,23 @@
-var categories = document.getElementsByClassName('categorie')
 var products = document.getElementsByClassName('product')
+
+var AllCategories = []
+for(var i = 0; i < products.length; i++){
+    var product = products[i]
+    c = product.getElementsByClassName('productCategorie')[0].textContent
+    if (!AllCategories.includes(c)){
+        AllCategories.push(c)
+    }
+}
+
+for (var i = 0; i < AllCategories.length; i++) {
+    c = AllCategories[i]
+    code = "<div>"
+    code += "<input class='categorie' name='"+c+"' onchange='categorieFilters()' type='checkbox' id='"+c +"Box'"
+    code += "<label for='"+c+"Box'>"+c+"</label>"
+    code+="</div>"
+    document.getElementById('Categories').innerHTML += code;
+}
+var categories = document.getElementsByClassName('categorie')
 
 function categorieFilters(){
     var nchecked = 0;
