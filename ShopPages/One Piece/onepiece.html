@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ShopHime - OnePiece</title>
     <link href="../shop.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    
     <link href="../../common/Header.css" rel="stylesheet">
-
+    <link href="styles.css" rel="stylesheet">
     <link rel="icon" href="" />
 </head>
 <body>
@@ -43,11 +43,15 @@
             
         </div>
     </main>
-
     <script src="productsList.js"></script>
     <script src="../products.js"></script>
     <script src="../sort.js"></script>
     <script src="../filters.js"></script>
     <script src="../../common/header.js"></script>
-
+    <script>
+    const imageElementById = document.getElementById('logo');
+    imageElementById.classList.remove('invert');
+    const nouvelleSource = 'Images/OnePieceshophime.png';
+    imageElementById.src = nouvelleSource;
+    </script>
 </body>
