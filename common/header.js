@@ -32,10 +32,12 @@ var navbarContent = `<div class="navbar">
             <div class="menu">
                 <div>
                     <ul>
-                        <li><a href='../index/Index.html' target="_top">Home</a></li>
-                        <li><a href='#'>About</a></li>
-                        <li><a href='#'>Services</a></li>
-                        <li><a href='#'>Contact</a></li>
+                        <li><a href='../../index/Index.html'>Home</a></li>
+                        <li><a href='../../commonPage/panier/panier.html'>Panier</a></li>
+                        <li><a href='../../ShopPages/berserk/modele.html'>Berserk</a></li>
+                        <li><a href='../../ShopPages/blackclover/modele.html'>Black Clover</a></li>
+                        <li><a href='../../ShopPages/huntexhunter/hxh.html'>Hunter x Hunter</a></li>
+                        <li><a href='../../ShopPages/One Piece/onepiece.html'>One Piece</a></li>          
                     </ul>
                 </div>
             </div>
