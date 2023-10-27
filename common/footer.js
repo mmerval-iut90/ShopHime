@@ -27,10 +27,10 @@ var footerContent = `<footer class="footer">
                 <div class="sub-footer">
                     <div class="sub">
                         <ul>
-                            <li><a href="../ShopPages/One Piece/onepiece.html" target="_top">One Piece</a></li>
-                            <li><a href="../ShopPages/blackclover/modele.html" target="_top">Black Clover</a></li>
-                            <li><a href="../ShopPages/berserk/modele.html" target="_top">Berserk</a></li>
-                            <li><a href="../ShopPages/huntexhunter/hxh.html" target="_top">Hunter X Hunter</a></li>
+                            <li><a href="../../ShopPages/One Piece/onepiece.html" target="_top">One Piece</a></li>
+                            <li><a href="../../ShopPages/blackclover/modele.html" target="_top">Black Clover</a></li>
+                            <li><a href="../../ShopPages/berserk/modele.html" target="_top">Berserk</a></li>
+                            <li><a href="../../ShopPages/huntexhunter/hxh.html" target="_top">Hunter X Hunter</a></li>
                         </ul>
                     </div>
                     <div class="sub">
@@ -71,5 +71,4 @@ function toggleAudio() {
 }</script>
 <script src="../../common/emailValid.js"></script>`;
 
-
-document.body.innerHTML += footerContent;
+document.body.innerHTML = document.body.innerHTML + footerContent;
