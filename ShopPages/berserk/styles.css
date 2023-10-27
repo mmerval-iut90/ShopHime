@@ -15,10 +15,18 @@ body{
 }
 #Filters{
     color: white;
-    text-shadow: red;
 }
 #Categories{
-    color: red;
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    margin-right: 2%;
 
+}
+#SortBy{
+    background-color: white;
+}
+#ClearFilter{
+    color: white;
 
 }
