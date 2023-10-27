@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop</title>
+    <link href="../shop.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" href="" />
+</head>
+<body>
+    <iframe src="../../common/Header.html" frameborder="0" scrolling="no" style="width: 100vw; height: 100vh; position: absolute; top: 0%;"></iframe>
+
+    <header>
+        <h1>Berserk</h1>
+        <p>Explorez le monde brutal et envoûtant de Berserk à travers nos collections de goodies soigneusement sélectionnés. Transformez votre passion en style!</p>
+    </header>
+    <main>
+        <div id="Filters">
+            <div id="filters-left">
+                <h4 id="FiltersTitle">Filters</h4>            
+                <button id="ClearFilters" onclick="clearFilters()">Clear filters</button>
+            </div>
+            <div id="filters-right">
+                <div id="SortBy">
+                    <label id="labelSortFilters"for="SelectSortType">Sort by</label>
+                    <select id="SelectSortType" onchange="changeSort()">
+                        <option value="popular">Popular</option>
+                        <option value="ascendingPrice">Ascending price</option>
+                        <option value="descendingPrice">Descending price</option>
+                    </select>
+                </div>
+                <div id="showingNproduct"> <p>Showing&nbsp;</p> <p id="nProduct">1003</p><p>&nbsp;products</p></div> 
+            </div>
+        </div>
+        <h3 class="separation">Categories</h3>  
+        <div id="filtersList">
+            <div id = 'Categories'>
+
+            </div>
+        </div>
+        <div id="ProductGrid">
+            
+        </div>
+    </main>
+    <iframe src="../../common/footer.html" frameborder="0" scrolling="no" onload="resizeIframe(this)" id="iframe" style="width: 100vw; left:0px;"></iframe>
+
+    <script src="productsList.js"></script>
+    <script src="../products.js"></script>
+    <script src="../sort.js"></script>
+    <script src="../filters.js"></script>
+    <script src="../../common/footer.js"></script>
+</body>
+</html>
