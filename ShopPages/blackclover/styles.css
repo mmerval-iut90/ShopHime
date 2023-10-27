@@ -2,4 +2,5 @@ header{
     background-image: url(./background.jpg);
     background-size: 100% 200%;
     background-position: 50%;
+    height: 300px;
 }
