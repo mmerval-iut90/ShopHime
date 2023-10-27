@@ -45,7 +45,7 @@ var footerContent = `<footer class="footer">
                     <div class="sub">
                         <ul>
                             <li><a href="#" id="playButton" onclick="toggleAudio()">Surprise</a>
-                                <audio id="myAudio" src="../common/Carte_Blanq_Maxx_Power_-_33_Max_Verstappen_Official_Audio_mp3cut.net.mp3"></audio>
+                                <audio id="myAudio" src="../../common/Carte_Blanq_Maxx_Power_-_33_Max_Verstappen_Official_Audio_mp3cut.net.mp3"></audio>
                             </li>
                             <li><a href="#">Responsibility Technology</a></li>
                             <li><a href="#">Explore</a></li>
@@ -69,7 +69,7 @@ function toggleAudio() {
         document.getElementById("playButton").innerHTML = "Lire l'audio";
     }
 }</script>
-<script src="../common/emailValid.js"></script>`;
+<script src="../../common/emailValid.js"></script>`;
 
 
-document.innerHTML += footerContent;
+document.body.innerHTML += footerContent;
