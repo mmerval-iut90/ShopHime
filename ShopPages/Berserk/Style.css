@@ -1,0 +1,195 @@
+
+.flex-parent-element {
+    display: flex;
+    width: 75%;
+    position: absolute;
+    left: 12.5%;
+    margin-top: 15%;
+}
+  .flex-child-element {
+    flex: 1;
+    height: auto;
+}
+  .flex-child-element:first-child {
+    margin-right: 2%;
+}
+.flex-child-element img{
+    max-width: 75%; 
+    height: auto;
+}
+.flex-child-element {
+    text-align: left;
+}
+#Title{
+    text-decoration: underline;
+    font-size: 300%;
+    padding-top: 2%;
+    margin-bottom: 6%;
+    margin-left: 5%;
+}
+.text {
+    display:flex;
+    flex-direction: column;
+}
+
+img{
+    position: relative;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    border-radius:7px;
+    z-index: -1;
+
+}
+h1,h2,p{
+    margin: 0;
+}
+h2{
+    margin-bottom: 3%;
+}
+
+
+#rightButton{
+    border: none;
+    background: none;
+    position: absolute;
+    width: 7%;
+    height: 12%;
+    top: 50%;
+    left: 29.5%;
+    transform: translate(50%,-50%);
+    background-image: url('./images/rightbutton.png');
+    background-position:50% 50% ; 
+}
+
+#rightButton:hover{
+    cursor: pointer;
+}
+#leftButton{
+    cursor: pointer;
+}
+#leftButton{
+    border: none;
+    background: none;
+    position: absolute;
+    width: 7%;
+    height: 12%;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%,-50%);
+    background-image: url('./images/leftbutton.png');
+    background-position:50% 50% ;  
+    
+}
+
+.QuantityInput{
+    width: 15%;
+    height: 5%;
+    padding: 2% 1.5% 2% 1.5%;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+}
+.QuantityInput p{
+    font-size: 120%;
+    color: gray;
+}
+.QuantityInput p:hover{
+    color: black;
+    cursor: pointer;
+}
+.QuantityNumber{
+    text-align: center;
+    color: #0d0d0d;
+    font-size: 120% ;
+    font-weight: 400;
+    line-height: 15%;
+    word-wrap: break-word;
+}
+.Tailles{
+    width: fit-content;
+    height: 5%;
+    padding: 2% 1.5% 2% 1.5%;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+#perso_item{
+    gap: 1%;
+    display: flex;
+    align-items: center;
+}
+#precision{
+    opacity: 0.5;
+}
+.Tailles select{
+    border: none;
+    background: none;
+
+}
+#taille{
+    font-family: 'Public Sans';
+}
+
+
+#panier, #acheter{
+    width: fit-content;
+    padding: 1%;
+    margin-top: 3%;
+    border-radius: 0;
+
+}
+#panier{
+    margin-right: 2%;
+    background-color: #0d0d0d;
+    color: white;
+    border: solid black 1px;
+}
+#panier:hover{
+    background-color: white;
+    color: #0d0d0d;
+    cursor: pointer;
+
+}
+#acheter{
+    background-color: #2F80ED;
+    color: white;
+    border: #2F80ED solid 1px;
+}
+#acheter:hover{
+    background-color: white;
+    color: #2F80ED;
+    cursor: pointer;
+}
+
+@media(max-width:768px) {
+    .flex-parent-element{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .flex-child-element{
+        position: relative;
+        left: 12.5%;
+    }
+    #panier, #acheter{
+        margin-bottom: 5%;
+    }
+    #rightButton{
+        width: 11%;
+        height: 10%;
+        top: 30%;
+        left: 75%;
+    }
+    #leftButton{
+        width: 11%;
+        height: 10%;
+        top: 30%;
+        left: 12%;
+    }
+    
+
+
+}
