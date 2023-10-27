@@ -1,6 +1,9 @@
 a:hover{
     color: #f8a8b2;
+}
 
+#retour:hover,#livraison:hover{
+    background-color: #ddd;
 }
 
 @media (min-width:768px){
