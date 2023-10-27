@@ -1,5 +1,5 @@
 for (var i = 0; i < products.length; i++) {
-    code = "<div class='product'>"
+    code = `<div class='product' onclick='window.location.href = "../Product/index.html";'>`
     product = products[i]
     code += "<div class='productImage' style='background-image:"+ 'url("'+product[0]+'")'+";'></div>"
     code += "<p class='productName'>"+product[1]+"</p>"
