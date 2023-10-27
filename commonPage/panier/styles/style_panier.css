@@ -9,7 +9,7 @@ a:hover{
 .panier{
     margin-top: 50px;
     padding-top: 5% ;
-    border-radius: 1.5%;
+    border-radius: 0.75%;
 }
 
 @media (min-width:768px){
