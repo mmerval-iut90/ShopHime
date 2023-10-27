@@ -56,19 +56,35 @@ var footerContent = `<footer class="footer">
             </div>
         </div>
     </div>
-</footer>
-<script>
-function toggleAudio() {
-    var audio = document.getElementById("myAudio");
-  
-    if (audio.paused) {
-        audio.play();
-        document.getElementById("playButton").innerHTML = "Pause";
-    } else {
-        audio.pause();
-        document.getElementById("playButton").innerHTML = "Lire l'audio";
-    }
-}</script>
-<script src="../../common/emailValid.js"></script>`;
+</footer>`;
 
-document.body.innerHTML = document.body.innerHTML + footerContent;
+document.body.innerHTML += footerContent;
+
+function toggleAudio() {
+var audio = document.getElementById("myAudio");
+if (audio.paused) {
+    audio.play();
+    document.getElementById("playButton").innerHTML = "Pause";
+} else {
+    audio.pause();
+    document.getElementById("playButton").innerHTML = "Lire l'audio";
+}
+}
+
+function submitEmail() {
+var email = document.getElementById('email').value;
+
+if (isValidEmail(email)) {
+    alert('Adresse e-mail soumise : ' + email);
+    document.getElementById('error-message').style.display = 'none';
+} else {
+    document.getElementById('error-message').style.display = 'block';
+}
+}
+
+function isValidEmail(email) {
+    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+}
+
+

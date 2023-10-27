@@ -49,4 +49,6 @@ var navbarContent = `<div class="navbar">
     </div>
 </div>`;
 
-document.body.innerHTML =  navbarContent + document.body.innerHTML
+document.body.innerHTML +=  navbarContent;
+
+
