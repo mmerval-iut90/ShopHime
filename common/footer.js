@@ -29,7 +29,7 @@ var footerContent = `<footer class="footer">
                         <ul>
                             <li><a href="../ShopPages/One Piece/onepiece.html" target="_top">One Piece</a></li>
                             <li><a href="../ShopPages/blackclover/modele.html" target="_top">Black Clover</a></li>
-                            <li><a href="#" target="_top">Berserk</a></li>
+                            <li><a href="../ShopPages/berserk/modele.html" target="_top">Berserk</a></li>
                             <li><a href="../ShopPages/huntexhunter/hxh.html" target="_top">Hunter X Hunter</a></li>
                         </ul>
                     </div>

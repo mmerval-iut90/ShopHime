@@ -10,7 +10,7 @@ var navbarContent = `<div class="navbar">
                 <div class="dropdown">
                     <button>Shop</button>
                     <div class="dropdown-options">
-                        <a href="#">Berserk</a>
+                        <a href="../../ShopPages/berserk/modele.html">Berserk</a>
                         <a href="../../ShopPages/blackclover/modele.html">Black Clover</a>
                         <a href="../../ShopPages/huntexhunter/hxh.html">Hunter X Hunter</a>
                         <a href="../../ShopPages/One Piece/onepiece.html">One Piece</a>
