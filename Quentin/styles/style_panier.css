@@ -1,3 +1,8 @@
+a:hover{
+    color: #f8a8b2;
+
+}
+
 @media (min-width:768px){
     body {
         margin: 0;
@@ -111,8 +116,9 @@
     }
 
     .checkoutbutton:hover {
-        background-color: rgb(42, 42, 42);
-        font-size: 16.2px;
+        background-color: #f8a8b2;
+        color: #333;;
+        font-size: 125%;
         padding-top: 3.05%;
         padding-bottom: 3.05%;
     }
@@ -126,9 +132,11 @@
     }
 
     .deletebutton:hover {
-        color: rgb(212, 48, 48)
+        color: #f8a8b2
+        
     }
 
+    
     .texte-retour {
         display: none;
     }
@@ -251,7 +259,9 @@
     }
 
     .checkoutbutton:hover {
-        background-color: rgb(42, 42, 42);
+        background-color: #f8a8b2;
+        color: #333;
+
         font-size: 16.2px;
         padding-top: 3.05%;
         padding-bottom: 3.05%;
@@ -264,7 +274,7 @@
     }
 
     .deletebutton:hover {
-        color: rgb(212, 48, 48);
+        color: #f8a8b2;
     }
 
     .texte-retour {

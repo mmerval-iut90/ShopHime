@@ -3,6 +3,11 @@ body    {
     background-size: 100% 30%; 
     background-repeat: no-repeat;
     background-position: center 89%; 
+    position: relative;
+}
+
+h1{
+    color: white;
 }
 
 .product{
