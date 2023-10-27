@@ -2,7 +2,7 @@ var navbarContent = `<div class="navbar">
     <div class="Frame5">
         <div class="links">
             <div class="le-logo">
-                <a href="../index/Index.html" target="_top">
+                <a href="../../commonPage/index/Index.html" target="_top">
                     <img id="logo" class="logo invert" src="../../common/images/shophime.svg" alt="logo">
                 </a>
             </div>
