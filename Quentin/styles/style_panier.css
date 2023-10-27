@@ -8,6 +8,8 @@ a:hover{
 
 @media (min-width:768px){
     body {
+        margin-bottom: 0%;
+        overflow-x: hidden;
         margin: 0;
         font-family: "Public Sans";
         background-image: url('images/image-removebg-preview_1.png');
@@ -154,9 +156,8 @@ a:hover{
 }
 
 @media (max-width: 768px) {
-    /* Styles pour les écrans de largeur minimale de 768px */
     body {
-        margin: 0;
+        margin-top: 10%;
         font-family: "Public Sans";
         background-image: url('images/image-removebg-preview_1.png');
         background-repeat: no-repeat;
