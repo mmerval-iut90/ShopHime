@@ -1,4 +1,20 @@
 products = [
-    ['Chemin/image1','Objet1', '0,0', 'Categorie1'],
-    ['Chemin/image2', 'Objet2', '100000,0', 'Categorie2'],
+    ['images/black-bull-asta-fight-sneakers-clover-anime-shoes-jd-729-700x700.jpg','Black Bull Asta Fight Sneakers Black Clover JD Shoes', '99.95', 'Chaussures'],
+    ['images/golden-dawn-yuno-sneakers-black-clover-jd-shoes-men-us6-5-583-700x700.jpg', 'Golden Dawn Yuno Sneakers Black Clover JD Shoes', '99.95', 'Chaussures'],
+    ['images/black-bull-yami-grimore-sneakers-clover-anime-shoes-jd-402-700x700.jpg','Black Bull Yami Grimore Sneakers Black Clover JD Shoes', '99.95', 'Chaussures'],
+    ['images/black-clover-julius-novachrono-sneakers-jd-shoes-164-700x700.jpg', 'Black Clover Julius Novachrono Sneakers Black Clover JD Shoes', '99.95', 'Chaussures'],
+    ['images/black-bull-noelle-silva-sneakers-clover-anime-shoes-jd-417-700x700.jpg','Black Bull Noelle Silva Sneakers Black Clover JD Shoes', '99.95', 'Chaussures'],
+    ['images/black-bull-luck-voltia-sneakers-clover-anime-shoes-jd-528-700x700.jpg', 'Black Bull Luck Voltia Sneakers Black Clover JD Shoes', '99.95', 'Chaussures'],
+    ['images/black-asta-sneakers-custom-purple-clover-anime-jd-204-700x700.jpg','Black Asta Sneakers Custom Purple Black Clover JD Sneakers', '99.95', 'Chaussures'],
+    ['posters/asta-black-clover-vintage-kraft-paper-poster-332-700x991.jpg', 'ASTA Black Clover Vintage', '14.99', 'Posters'],
+    ['posters/black-clover-3-main-character-classic-kraft-paper-poster-448-700x991.jpg','Black Clover 3 Main Character Classic', '11.99', 'Posters'],
+    ['posters/black-clover-gauche-adlai-vintage-kraft-paper-poster-845-700x991.jpg', 'Black Clover Gauche Adlai Vintage', '13.95', 'Posters'],
+    ['posters/black-clover-skull-vintage-kraft-paper-poster-970-700x991.jpg','Black Clover Skull Vintage', '15.99', 'Posters'],
+    ['posters/asta-vintage-kraft-paper-poster-476-700x991.jpg', 'Asta Vintage', '14.95', 'Posters'],
+    ['tel/asta-black-clover-phone-case-iphone-78-style-1-871-400x400.jpg', 'Asta black clover Phone Case', '16.95', 'Coque'],
+    ['tel/asta-dark-phone-case-iphone-78-style-1-847-400x400.png', 'Asta Dark Phone Case', '16.95', 'Coque'],
+    ['tel/black-bulls-phone-case-iphone-78-style-1-373-400x400.png', 'Black Bulls Phone Case', '16.95', 'Coque'],
+    ['tel/black-manga-clover-main-characters-design-phone-case-iphone-78-style-1-598-400x400.png', 'Black Manga Clover Main Characters Design Phone Case', '16.95', 'Coque'],
+    ['tel/noelle-black-anime-clover-phone-case-iphone-78-style-1-736-400x400.png', 'Noelle – Black Anime Clover Phone Case', '16.95', 'Coque'],
+    ['tel/demon-skull-black-clover-phone-case-iphone-78-style-1-819-400x400.jpg', 'Demon Skull Black Clover Phone Case', '16.95', 'Coque']
 ]
