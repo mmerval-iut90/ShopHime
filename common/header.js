@@ -32,7 +32,7 @@ var navbarContent = `<div class="navbar">
             <div class="menu">
                 <div>
                     <ul>
-                        <li><a href='../../index/Index.html'>Home</a></li>
+                        <li><a href='../../commonPage/index/Index.html'>Home</a></li>
                         <li><a href='../../commonPage/panier/panier.html'>Panier</a></li>
                         <li><a href='../../ShopPages/berserk/modele.html'>Berserk</a></li>
                         <li><a href='../../ShopPages/blackclover/modele.html'>Black Clover</a></li>
