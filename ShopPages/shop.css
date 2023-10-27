@@ -92,6 +92,8 @@ label{
 main{
     padding-left: 5vw;
     padding-right: 5vw;
+    
+    height: fit-content;
 }
 
 #ProductGrid{
@@ -274,4 +276,3 @@ button:hover, .product:hover, input:hover{
         padding-left: 0%;
     }
 }
-
