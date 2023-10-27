@@ -1,9 +1,12 @@
-body    {
-    background-image: url('Images/bg.png');
-    background-size: 100% 30%; 
-    background-repeat: no-repeat;
-    background-position: center 89%; 
+
+    body{
+        background-image: url('Images/bg.png');
+        background-size: 100% 30%; 
+        background-repeat: no-repeat;
+        background-position: center 98%; 
+    }
 }
+
 
 h1{
     color: white;
@@ -12,4 +15,13 @@ h1{
 .product{
     background-color: whitesmoke;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width:768px){
+    body{
+    background-image: url('Images/bg.png');
+        background-size: 100% 9%; 
+        background-repeat: no-repeat;
+        background-position: center 99%; 
+}
 }
